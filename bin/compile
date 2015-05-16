@@ -109,8 +109,8 @@ bpwatch start pre_compile
 bpwatch stop pre_compile
 
 # If no requirements given, assume `setup.py develop`.
-if [ ! -f requirements.txt ]; then
-  echo "-e ." > requirements.txt
+if [ ! -f r.txt ]; then
+  echo "-e ." > r.txt
 fi
 
 

@@ -10,7 +10,7 @@ Usage
 Example usage:
 
     $ ls
-    Procfile  requirements.txt  web.py
+    Procfile  r.txt  web.py
 
     $ heroku create --buildpack git://github.com/rozha/heroku-buildpack-python.git
 
@@ -19,7 +19,7 @@ Example usage:
     -----> Python app detected
     -----> Installing runtime (python-3.4.3)
     -----> Installing dependencies using pip
-           Downloading/unpacking requests (from -r requirements.txt (line 1))
+           Downloading/unpacking requests (from -r r.txt (line 1))
            Installing collected packages: requests
            Successfully installed requests
            Cleaning up...
